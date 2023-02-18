@@ -18,3 +18,7 @@ for (int i = 0; i < array.Length; i++)
 Console.Write(array[i] + " ");
 Console.WriteLine();
 }
+
+string[] array = { "hello", "2", "world", ":-)", "1234", "1567", "-2" };
+string[] newArray = (ShowCutArray(array));
+ShowArray(newArray);
